@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Codex Arcanum
 
-## Getting Started
+The Codex Arcanum is a self-hosted web app for creating and viewing characters for Dungeons & Dragons 5th Edition. Character data is saved as JSON to a database that is stored solely on your own hardware. By default, the Codex uses data from the [System Reference Document v5.1](https://www.dndbeyond.com/srd#SystemReferenceDocumentv51). You are welcome to add your own data from books you own or homebrew created by you or others. Make sure you actually own the books so the Grand Rules Lawyers at Wizards of the Coast don't banish you to the Abyss.
 
-First, run the development server:
+## Installation - Will be updated as development continues
+
+It is recommended to install in a container or external server, however the server doesn't need to run 24/7 so you can host it on your own PC if you want.
+
+### Prerequisites
+
+- Git
+- Node.js
+- npm, Yarn, or pnpm (usually installed alongside Node)
+
+### From Source
+
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/StormbringerDev/codex-arcanum
+cd codex-arcanum
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Preview the app (optional, but recommended)
 
-## Learn More
+```bash
+npm run preview
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Build the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+Usage of the application will be documented as development continues.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This repository is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
