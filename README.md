@@ -27,13 +27,7 @@ cd codex-arcanum
 npm install
 ```
 
-3. Preview the app (optional, but recommended)
-
-```bash
-npm run preview
-```
-
-4. Build the server
+3. Build the server
 
 ```bash
 npm run build
