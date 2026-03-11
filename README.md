@@ -10,7 +10,7 @@ It is recommended to install in a container or external server. However, the ser
 
 - Git
 - Node.js
-- PostgreSQL (or your database of choice)
+- PostgreSQL (or your database of choice, ensure to adjust code as needed)
 - pnpm (recommended), npm, or Yarn
 
 ### From Source
@@ -44,4 +44,4 @@ pnpm start
 
 ## License
 
-This repository is licensed under the GNU Aferro General Public License v3. See [LICENSE](./LICENSE) for details.
+This repository is licensed under the GNU Affero General Public License v3. See [LICENSE](./LICENSE) for details.
